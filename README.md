@@ -1,4 +1,4 @@
-# Hand Sign Language to Text Recognition
+# SIGN LANGUAGE DETECTION
 
 This project enables real-time hand sign language recognition, converting recognized signs into corresponding text. It uses a trained neural network model to detect and classify hand signs from video input.
 
