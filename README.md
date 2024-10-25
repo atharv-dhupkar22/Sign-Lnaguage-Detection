@@ -1,50 +1,41 @@
-# Hand Sign Language to Text Recognition
+Real-Time Hand Sign Language to Text Translator
+This project provides a real-time solution for translating hand sign language into text. By using a pre-trained neural network model, it detects and interprets hand signs (A-Z) from video input, displaying recognized characters as text on-screen.
 
-This project enables real-time hand sign language recognition, converting recognized signs into corresponding text. It uses a trained neural network model to detect and classify hand signs from video input.
-
-## Features
-- Recognizes hand signs (A-Z) using a webcam
-- Dynamically generates and displays a sentence based on recognized signs
-- Adds a space when no hand is detected
-- Allows erasing the entire sentence by pressing the `E` key
-
-## How to Use
-1. Run the Python script to start the webcam and hand sign recognition.
-2. Show hand signs in front of the camera for real-time recognition.
-3. The recognized signs will appear as text on the screen.
-4. Press `E` to erase the current sentence.
-
-## Requirements
-- Python 3.x
-- TensorFlow
-- OpenCV
-- MediaPipe
-
-## Setup
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/Amvic7/Real-time-Hand-Sign-Recognition.git
-    ```
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the program:
-    ```bash
-    python sign_language_recognition.py
-    ```
-
-## Dataset
-- The hand sign data is collected from custom images using MediaPipe and is trained using a neural network in Keras.
-
-## Model
-- The trained model (`hand_sign_model.keras`) is included for prediction purposes. The model can recognize hand signs from A-Z.
-
-## Contributors
-- [Amvic](https://github.com/Amvic7)
-- [Atharv Dhupkar](https://github.com/atharv-dhupkar22)
-- [Atharva Bhosale](https://github.com/AT8Cool)
-- [Gauresh Bhoir](https://github.com/Slugget98)
-
-## License
+Key Features
+Hand Sign Recognition (A-Z): Detects and classifies hand signs via webcam.
+Dynamic Sentence Formation: Continuously updates and displays a sentence based on recognized signs.
+Space Detection: Adds a space when no hand sign is detected, enabling natural sentence flow.
+Erase Feature: Press E to clear the current sentence entirely.
+Usage Instructions
+Run the Python script to initiate the webcam and hand sign detection.
+Show hand signs in front of the camera for real-time recognition.
+Recognized signs appear as text on the screen, forming a sentence.
+Press E at any time to erase the current sentence.
+Requirements
+Python 3.x
+TensorFlow
+OpenCV
+MediaPipe
+Installation and Setup
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/Amvic7/Real-time-Hand-Sign-Recognition.git
+Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Run the script:
+bash
+Copy code
+python sign_language_recognition.py
+Dataset and Model
+The dataset consists of custom images captured using MediaPipe.
+The neural network model (hand_sign_model.keras) is trained using Keras, capable of recognizing hand signs A-Z.
+Contributors
+Amvic
+Atharv Dhupkar
+Atharva Bhosale
+Gauresh Bhoir
+License
 This project is licensed under the MIT License.
